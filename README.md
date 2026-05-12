@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 貪心蛇 Snake Game
 
-# Run and deploy your AI Studio app
+一個使用 React、TypeScript 和 HTML5 Canvas 構建的高品質貪心蛇遊戲。具有流暢的動畫、等級系統和響應式設計。
 
-This contains everything you need to run your app locally.
+## 功能特點
 
-View your app in AI Studio: https://ai.studio/apps/41f0a8d5-fa90-4291-8063-0a852174fadc
+- 🍎 **經典玩法**：吃掉能量點以增長長度。
+- ⚡ **等級系統**：隨著分數增加，遊戲速度會逐漸加快。
+- 🎨 **現代設計**：使用 Tailwind CSS 和 Motion (Framer Motion) 打造流暢視覺效果。
+- 📱 **響應式控制**：支援鍵盤操作與行動裝置控制面板。
 
-## Run Locally
+## 如何運行
 
-**Prerequisites:**  Node.js
+### 先決條件
 
+- [Node.js](https://nodejs.org/) (建議 LTS 版本)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 安裝步驟
+
+1. 安裝依賴項目：
+   ```bash
+   npm install
+   ```
+
+2. 啟動開發伺服器：
+   ```bash
+   npm run dev
+   ```
+
+3. 在瀏覽器中打開 `http://localhost:3000` 即可開始遊戲。
+
+## 控制方式
+
+- **方向鍵 (Arrow Keys)**：控制蛇的移動方向。
+- **空白鍵 (Space)**：暫停/恢復遊戲。
+- **Enter 鍵**：在遊戲結束後重新開始。
+
+## 使用技術
+
+- **React 19**
+- **TypeScript**
+- **Vite** (開發與構建工具)
+- **Tailwind CSS** (樣式設計)
+- **Motion** (動畫效果)
+- **Lucide React** (圖示)
