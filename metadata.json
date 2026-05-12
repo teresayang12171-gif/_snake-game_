@@ -1,0 +1,6 @@
+{
+  "name": "貪心蛇",
+  "description": "A high-performance, polished Snake game built with React, TypeScript and HTML5 Canvas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
