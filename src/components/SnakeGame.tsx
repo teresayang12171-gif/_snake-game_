@@ -265,7 +265,7 @@ export default function SnakeGame() {
       {/* Header */}
       <header className="w-full max-w-[800px] flex items-end justify-between mb-6 pb-4 border-b border-blue-50 z-10 transition-all duration-300">
         <h1 className="text-2xl font-bold tracking-[4px] uppercase text-blue-950">
-          貪心蛇<span className="text-emerald-500">.</span>SNAKE
+          貪心蛇<span className="text-emerald-500">-</span>Snake game
         </h1>
         <div className="flex gap-12">
           <div className="flex flex-col items-end">
@@ -305,7 +305,7 @@ export default function SnakeGame() {
                 <div className="mb-8 p-6 border border-blue-50 bg-blue-50/30 rounded-2xl">
                    <Play size={40} className="text-emerald-500 mx-auto mb-6" />
                    <h2 className="text-xl font-bold tracking-[4px] uppercase text-blue-950 mb-2">
-                     貪心蛇 <br/> <span className="text-sm">Snake Game</span>
+                     貪心蛇<span className="text-emerald-500">-</span>Snake game
                    </h2>
                    <p className="text-xs text-blue-600 uppercase tracking-widest max-w-[240px] leading-relaxed mt-4">
                      在網格中穿梭。收集能量點以增長長度。<br/>
