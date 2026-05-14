@@ -307,10 +307,9 @@ export default function SnakeGame() {
                    <h2 className="text-xl font-bold tracking-[4px] uppercase text-blue-950 mb-2">
                      貪心蛇<span className="text-emerald-500">-</span>Snake game
                    </h2>
-                   <p className="text-xs text-blue-600 uppercase tracking-widest max-w-[240px] leading-relaxed mt-4">
-                     在網格中穿梭。收集能量點以增長長度。<br/>
-                     <span className="text-[10px] opacity-70">Navigate the grid. Collect energy nodes to grow.</span>
-                   </p>
+                    <p className="text-[11px] text-blue-600 tracking-wider max-w-[280px] leading-relaxed mt-4">
+                      遊戲規格：玩家控制一條蛇移動，吃食物來成長，但要避免撞到牆壁或自己的身體。
+                    </p>
                 </div>
                 <button
                   onClick={resetGame}
@@ -381,6 +380,14 @@ export default function SnakeGame() {
           </AnimatePresence>
         </div>
       </main>
+
+      {/* Game Rules Footer */}
+      <div className="absolute bottom-10 left-10 max-w-[300px] z-20 hidden md:block">
+        <p className="text-[10px] text-blue-400 uppercase tracking-[2px] font-semibold mb-2">遊戲規格 Specification</p>
+        <p className="text-[11px] text-slate-500 leading-relaxed">
+          玩家控制一條蛇移動，吃食物來成長，但要避免撞到牆壁或自己的身體。
+        </p>
+      </div>
 
       {/* Controls Hint */}
       <div className="absolute bottom-10 right-10 flex flex-col gap-3 text-right z-20">
